@@ -32,6 +32,23 @@ void main(){
   int mod = b % a; // Modulo retourne le reste de la division
   print("Le modulo de b $b par a $a: ${mod}");
 
+  // 1.6. Incrementation
+  var i = 4;
+  var y = ++i;
+  print("La valeur de y: $y"); // y = 1
+
+  // 1.6. Decrementaton
+  var z = i--;
+  print("La valeur de z: $z"); // y = 1
+
+  // 1.7. Egalite
+  print("Est-ce que i est egal a y: ${i == y}?");
+  print("Est-ce que i est egal a y: ${i != y}?");
+  print("Est-ce que i est superieur a y: ${i > y}?");
+  print("Est-ce que i est inferieur a y: ${i < y}?");
+  print("Est-ce que i est superieur ou egal a y: ${i >= y}?");
+  print("Est-ce que i est inferieur ou egal a y: ${i <= y}?");
+
   // 2. Nombre decimal
   double pi = 3.14;
   print(pi);
