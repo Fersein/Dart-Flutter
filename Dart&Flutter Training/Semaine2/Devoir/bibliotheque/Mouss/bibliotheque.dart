@@ -27,7 +27,8 @@ void allPrograms(
   List<String> booksName,
   Map<dynamic, dynamic> booksInformation,
 ) {
-  print(
+  bool isExit = true;
+  while (isExit){print(
     "\t1. Display books \n\t2. Borrow a book \n\t3. Return book \n\t4. Exit",
   );
   stdout.write("\tEnter your choice (1-4): ");
@@ -57,11 +58,12 @@ void allPrograms(
 
     case '4':
       print("Thank you for using the system!");
+      isExit = false;
       break;
 
     default:
       print("Invalid choice! Enter 1-4.");
-  }
+  }}
 }
 
 // Display books
