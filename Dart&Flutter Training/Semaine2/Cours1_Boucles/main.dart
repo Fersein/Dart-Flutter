@@ -58,8 +58,8 @@ void main(){
   );
   */
   names.forEach(
-    (names){
-      print("Mbote $names");
+    (name){
+      print("Mbote $name");
     } 
   );
 

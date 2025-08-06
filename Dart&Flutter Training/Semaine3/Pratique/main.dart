@@ -5,7 +5,7 @@ Simulation d'un systeme de voyage
 import 'dart:io';
 
 void main(){
-  List menu = ["1. Incsription", "2. Itinearaire", "3. Reservation", "4. Remboursement", "5. Quitter"];
+  List menu = ["1. Incsription", "2. Itinearaire Claire", "3. Reservation Mouss", "4. Remboursement Chris", "5. Quitter"];
   Map information = {};
 
   var isRunning = true;
