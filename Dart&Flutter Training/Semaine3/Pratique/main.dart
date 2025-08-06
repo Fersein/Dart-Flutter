@@ -15,7 +15,6 @@ void main(){
     isRunning = select(information, isRunning);
     print(isRunning);
   }
-
 }
 
 // Fonction pour afficher le menu
